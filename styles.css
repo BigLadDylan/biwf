@@ -1,3 +1,37 @@
-body {
-    background-color: #363636;
+* {
+    font-family: 'Nunito', sans-serif;
+    margin: 0 0;
+}
+
+.background {
+    background-color: #292929;
+}
+
+.navbar {
+    position: sticky;
+    top: 0.0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100.0%;
+    height: 8.0vh;
+    background-color: #ff5858;
+    box-shadow: 0.0px 16.0px 16.0px #00000060;
+}
+
+.a-button {
+    transition: 1.0s ease;
+    color: #ffffff;
+    margin: 16.0px;
+    padding: 16.0px;
+    font-size: 1.5rem;
+    text-underline-offset: 4.0px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.a-button:hover {
+    transition: 1.0s ease;
+    color: #000000;
 }
