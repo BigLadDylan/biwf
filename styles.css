@@ -73,11 +73,16 @@ body {
 
 .visits {
     padding: 32.0px;
-}
-
-.visits #visits {
     color: #ffffff;
     font-size: 4.0rem;
+}
+
+.visits .amount {
+    display: inline;
+    color: #000000;
+    background-color: #ffffff;
+    padding: 8.0px;
+    border-radius: 32.0px;
 }
 
 .description {
@@ -89,4 +94,17 @@ body {
     color: #000000;
     width: 75.0%;
     font-size: 1.5rem;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0.0px;
+    color: #000000;
+    background-color: #ffffff;
+    font-size: 1.25rem;
+}
+
+.footer .link {
+    color: var(--highlight);
+    text-decoration: none;
 }
