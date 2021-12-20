@@ -5,7 +5,7 @@ function randint(min, max) {
 }
 
 function set() {
-  visits.innerHTML = `Over ${random} visits and counting... Literally...`;
+  visits.innerHTML = `Over <div class='amount'>${random}</div> visits and counting... Literally...`;
 }
 
 function increment() {

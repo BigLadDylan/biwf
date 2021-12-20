@@ -26,6 +26,7 @@ body {
   font-size: 2rem;
   text-align: center;
   text-decoration: none;
+  text-shadow: 2px 2px 0px #000000;
 }
 
 .navbar .button:hover {
@@ -74,6 +75,7 @@ body {
   padding-top: 32px;
   padding-bottom: 32px;
   font-size: 8rem;
+  text-shadow: 8px 8px 0px #000000;
 }
 
 .title #icon {
@@ -83,6 +85,7 @@ body {
   background-color: #ffffff;
   margin: 32px;
   border-radius: 32px;
+  box-shadow: 8px 8px 0px #000000;
 }
 
 .visits {
@@ -90,6 +93,7 @@ body {
   padding-bottom: 32px;
   color: #ffffff;
   font-size: 4rem;
+  text-shadow: 4px 4px 0px #000000;
 }
 
 .visits .amount {
@@ -98,6 +102,8 @@ body {
   background-color: #ffffff;
   padding: 8px;
   border-radius: 32px;
+  box-shadow: 8px 8px 0px #000000;
+  text-shadow: none;
 }
 
 .description {
