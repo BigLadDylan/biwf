@@ -1,22 +1,26 @@
+:root {
+    --highlight: #e45a5a;
+    --dark: #292929;
+}
+
 * {
     font-family: 'Nunito', sans-serif;
     margin: 0.0px 0.0px;
+    user-select: none;
 }
 
 body {
-    background-color: #292929;
+    background-color: var(--dark);
 }
 
 .navbar {
     position: sticky;
     top: 0.0px;
-    background-color: #ff5858;
+    background-color: var(--highlight);
 }
 
-.navbar a {
-    transition: 1.0s ease;
+.navbar .button {
     color: #ffffff;
-    user-select: none;
     margin: 32.0px;
     font-size: 2.0rem;
     text-align: center;
@@ -40,6 +44,7 @@ body {
 
 .fill {
     width: 100.0%;
+    max-width: 100.0%;
 }
 
 .left {
@@ -52,6 +57,15 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.visits {
+    padding: 32.0px;
+}
+
+.visits #visits {
+    color: #ffffff;
+    font-size: 4.0rem;
 }
 
 .description {
