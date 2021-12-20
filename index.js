@@ -1,23 +1,23 @@
 function randint(min, max) {
-    d = max - min
+  d = max - min;
 
-    return min + Math.floor(Math.random() * d)
+  return min + Math.floor(Math.random() * d);
 }
 
 function set() {
-    visits.innerHTML = `Over <div class='amount'>${random}</div> visits and counting... Literally...`
+  visits.innerHTML = `Over ${random} visits and counting... Literally...`;
 }
 
 function increment() {
-    set();
+  set();
 
-    random += randint(0, 100);
+  random += randint(0, 100);
 
-    setTimeout(increment)
+  setTimeout(increment);
 }
 
-random = randint(100_000_000, 900_000_000)
+random = randint(100, _000_000, 900, _000_000);
 
 set();
 
-setTimeout(increment, 50)
+setTimeout(increment, 50);
