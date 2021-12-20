@@ -1,4 +1,8 @@
-random = 100_000_000 + Math.floor(Math.random() * 900_000_000)
+function randint(min, max) {
+    d = max - min
+
+    return min + Math.floor(Math.random() * d)
+}
 
 function set() {
     visits.innerHTML = `Over ${random} visits and counting... Literally...`
@@ -6,12 +10,13 @@ function set() {
 
 function increment() {
     set();
-    
 
-    random += Math.floor(Math.random() * 100);
+    random += randint(0, 100);
 
     setTimeout(increment)
 }
+
+random = randint(100_000_000, 900_000_000)
 
 set();
 
