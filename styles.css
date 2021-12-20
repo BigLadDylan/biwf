@@ -35,7 +35,6 @@ body {
 
 .navbar .logo {
     transition: 0.25s ease;
-    background: url('resources/biwf_64x64.png');
     width: 64.0px;
     height: 64.0px;
     margin: 16.0px;
@@ -71,6 +70,21 @@ body {
     align-items: center;
 }
 
+.title {
+    color: #ffffff;
+    padding: 32.0px;
+    font-size: 8.0rem;
+}
+
+.title #icon {
+    width: 128.0px;
+    height: 128.0px;
+    padding: 16.0px;
+    background-color: #ffffff;
+    margin: 32.0px;
+    border-radius: 32.0px;
+}
+
 .visits {
     padding: 32.0px;
     color: #ffffff;
@@ -90,7 +104,7 @@ body {
     padding: 32.0px;
 }
 
-.description div {
+.description .content {
     color: #000000;
     width: 75.0%;
     font-size: 1.5rem;
