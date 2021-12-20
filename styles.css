@@ -55,7 +55,6 @@ body {
 
 .fill {
   width: 100%;
-  max-width: 100%;
 }
 
 .left {
@@ -72,7 +71,8 @@ body {
 
 .title {
   color: #ffffff;
-  padding: 32px;
+  padding-top: 32px;
+  padding-bottom: 32px;
   font-size: 8rem;
 }
 
@@ -86,7 +86,8 @@ body {
 }
 
 .visits {
-  padding: 32px;
+  padding-top: 32px;
+  padding-bottom: 32px;
   color: #ffffff;
   font-size: 4rem;
 }
@@ -101,7 +102,8 @@ body {
 
 .description {
   background-color: #ffffff;
-  padding: 32px;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 .description .content {
@@ -114,31 +116,11 @@ body {
   position: fixed;
   bottom: 0px;
   color: #000000;
-  background-color: #4d4b4b;
+  background-color: #ffffff;
   font-size: 1.25rem;
 }
 
 .footer .link {
   color: var(--highlight);
   text-decoration: none;
-}
-
-.sidenav {
-  height: 100%;
-  width: 140px;
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  left: 0;
-  background-color: #d44949;
-  margin-top: 107px;
-  margin-bottom: 100px;
-}
-
-.sidenav a {
-  padding: 6px 8px 6px 16px;
-  text-decoration: none;
-  font-size: 25px;
-  color: #818181;
-  display: block;
 }

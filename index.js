@@ -16,7 +16,7 @@ function increment() {
   setTimeout(increment);
 }
 
-random = randint(100, _000_000, 900, _000_000);
+random = randint(100_000_000, 900_000_000);
 
 set();
 
