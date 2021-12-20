@@ -79,6 +79,7 @@ body {
 }
 
 .title #icon {
+  transition: 0.25s ease;
   width: 128px;
   height: 128px;
   padding: 16px;
@@ -86,6 +87,12 @@ body {
   margin: 32px;
   border-radius: 32px;
   box-shadow: 8px 8px 0px #000000;
+}
+
+.title #icon:hover {
+  transition: 0.25s ease;
+  box-shadow: 4px 4px 0px #000000;
+  transform: translate(4px, 4px);
 }
 
 .visits {
