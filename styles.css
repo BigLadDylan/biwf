@@ -13,6 +13,12 @@ body {
     background-color: var(--dark);
 }
 
+
+/* universal elements */
+
+
+/* navbar */
+
 .navbar {
     position: sticky;
     top: 0px;
@@ -24,14 +30,15 @@ body {
     transition: 0.25s ease;
     color: #ffffff;
     margin: 32px;
-    font-size: 2rem;
+    margin-left: 32px;
+    font-size: 1rem;
     text-align: center;
-    text-decoration: none;
-    text-shadow: 2px 2px 0px #000000;
+    text-decoration: underline 1px;
+    text-underline-offset: 7px;
 }
 
 .navbar .button:hover {
-    transition: 0.25s ease;
+    transition: 0.25s;
     transform: scale(1.25) rotateZ(5deg);
 }
 
@@ -72,9 +79,53 @@ body {
 }
 
 
-/* army section  */
+/* footer section  */
 
-.Army-container {
+.footer {
+    position: fixed;
+    bottom: 0px;
+    color: #000000;
+    background-color: #2c2c2c;
+    font-size: 1.25rem;
+}
+
+.footer .link {
+    color: var(--highlight);
+    text-decoration: none;
+}
+
+
+/* about me */
+
+
+/* introduction */
+
+.intro-box {
+    display: flex;
+    flex-direction: row;
+    column-gap: 1000px;
+    justify-content: center;
+    margin: 15px;
+    padding: 20px;
+    background-color: #191919;
+    box-shadow: black 20px;
+    border-radius: 20px;
+}
+
+.intro-text {
+    color: whitesmoke;
+    width: 100px;
+}
+
+
+/* #intro-pic {
+
+} */
+
+
+/* army section */
+
+.army-container {
     display: flex;
     flex-direction: row;
     column-gap: 69px;
@@ -92,33 +143,17 @@ body {
     text-underline-offset: 3px;
 }
 
-.Army-container .Text {
-    color: #000000;
-    background-color: whitesmoke;
+.army-container .text {
+    color: whitesmoke;
+    background-color: #202020;
     width: auto;
-    height: 100px;
+    height: 500px;
     padding: 10px;
     padding-left: 25px;
     border-radius: 10px;
     text-decoration: none;
 }
 
-#myPic {
+#army-pic1 {
     border-radius: 10px;
-}
-
-
-/* footer section  */
-
-.footer {
-    position: fixed;
-    bottom: 0px;
-    color: #000000;
-    background-color: #2c2c2c;
-    font-size: 1.25rem;
-}
-
-.footer .link {
-    color: var(--highlight);
-    text-decoration: none;
 }
