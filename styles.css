@@ -17,6 +17,7 @@ body {
     position: sticky;
     top: 0px;
     background-color: var(--highlight);
+    box-shadow: 2px 2px 2px #000000;
 }
 
 .navbar .button {
@@ -70,13 +71,14 @@ body {
     align-items: center;
 }
 
-.title {
+
+/* .title {
     color: #ffffff;
     padding-top: 32px;
     padding-bottom: 32px;
     font-size: 8rem;
     text-shadow: 8px 8px 0px #000000;
-}
+} */
 
 .title #icon {
     transition: 0.25s ease;
@@ -114,8 +116,8 @@ body {
 }
 
 .description {
-    width: 100px;
-    height: 100px;
+    width: 500px;
+    height: 500px;
     background-color: blueviolet;
 }
 
@@ -125,30 +127,27 @@ body {
     font-size: 1.5rem;
 }
 
-.grid-container {
-    display: grid;
-    column-gap: 10px;
+.container {
+    display: flex;
+    flex-direction: column;
+    margin: 70px;
 }
 
-.BigLadDylan-Button {
+#text {
     width: 100px;
     height: 100px;
-    background-color: blueviolet;
-    margin-left: 100px;
+    background-color: aqua;
 }
 
-.DotDivee-Button {
-    width: 100px;
-    height: 100px;
-    background-color: blueviolet;
-    margin-left: 100px;
+#myPic {
+    border-radius: 10px;
 }
 
 .footer {
     position: fixed;
     bottom: 0px;
     color: #000000;
-    background-color: #ffffff;
+    background-color: #2c2c2c;
     font-size: 1.25rem;
 }
 
